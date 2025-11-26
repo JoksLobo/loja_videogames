@@ -83,6 +83,33 @@ let classics = [
     image:
       "https://beanstalk.io/wp-content/uploads/2023/01/sega-master-system-emulators.jpg",
   },
+  {
+    id: 1,
+    title: "Master System",
+    price: 800,
+    installments: "10x de R$80,00",
+    discount: "R$700,00 à vista",
+    image:
+      "https://beanstalk.io/wp-content/uploads/2023/01/sega-master-system-emulators.jpg",
+  },
+  {
+    id: 1,
+    title: "Master System",
+    price: 800,
+    installments: "10x de R$80,00",
+    discount: "R$700,00 à vista",
+    image:
+      "https://beanstalk.io/wp-content/uploads/2023/01/sega-master-system-emulators.jpg",
+  },
+  {
+    id: 1,
+    title: "Master System",
+    price: 800,
+    installments: "10x de R$80,00",
+    discount: "R$700,00 à vista",
+    image:
+      "https://beanstalk.io/wp-content/uploads/2023/01/sega-master-system-emulators.jpg",
+  },
 ];
 
 //formata o preço

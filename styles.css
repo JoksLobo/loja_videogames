@@ -13,6 +13,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.2;
   color: black;
+  background-color: #f3f3f3;
 }
 
 .header {
@@ -102,4 +103,42 @@ body {
   background-image: url("https://cdn.awsli.com.br/1920x1920/2423/2423046/banner/garanta-o-seu--8s85dpkwwu.png");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 2rem;
+}
+
+.main {
+  width: 100vw;
+
+  & .container {
+    padding: 2.5rem 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
+
+    & .products-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2.5rem;
+      overflow: hidden;
+
+      & .product-card {
+        width: 30rem;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        gap: 0.5rem;
+
+        & img {
+          width: 60%;
+        }
+      }
+    }
+  }
 }
