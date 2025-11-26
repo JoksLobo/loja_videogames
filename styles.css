@@ -96,3 +96,10 @@ body {
     }
   }
 }
+
+.hero {
+  height: 54.6rem;
+  background-image: url("https://cdn.awsli.com.br/1920x1920/2423/2423046/banner/garanta-o-seu--8s85dpkwwu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
