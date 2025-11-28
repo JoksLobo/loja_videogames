@@ -10,66 +10,65 @@ let products = [
   },
   {
     id: 2,
-    title: "Nintendo Switch 2",
+    title: "Jogo Clair Obscure - Expedition 33 - PS5",
     price: 3000,
     installments: "10x de R$300,00",
     discount: "R$2.800,00 à vista",
     image:
-      "https://universonintendo.com/wp-content/uploads/2025/04/Nintendo-Switch-2-Mario-Kart-World-Boxart-BRA.png",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_622373-MLA95701668352_102025-F.webp",
   },
   {
     id: 3,
-    title: "Nintendo Switch 2",
-    price: 3000,
+    title: "Controle 8BitDo Bluetooth",
+    price: 377.9,
     installments: "10x de R$300,00",
     discount: "R$2.800,00 à vista",
     image:
-      "https://universonintendo.com/wp-content/uploads/2025/04/Nintendo-Switch-2-Mario-Kart-World-Boxart-BRA.png",
+      "https://img.terabyteshop.com.br/produto/g/controle-gamer-8bitdo-ultimate-24g-wireless-bluetooth-windows-android-apple-steamos-hall-effect-roxo-81ha09_205588.jpg",
   },
   {
     id: 4,
-    title: "Nintendo Switch 2",
+    title: "PlayStation 5 - Edição Especial Spider-man 2",
     price: 3000,
     installments: "10x de R$300,00",
     discount: "R$2.800,00 à vista",
     image:
-      "https://universonintendo.com/wp-content/uploads/2025/04/Nintendo-Switch-2-Mario-Kart-World-Boxart-BRA.png",
+      "https://tse1.mm.bing.net/th/id/OIP.a1rgCFBfeGZ5PDQRbaKr0QHaHZ?w=550&h=549&rs=1&pid=ImgDetMain&o=7&rm=3",
   },
   {
     id: 5,
-    title: "Nintendo Switch 2",
-    price: 3000,
+    title: "Jogo EA Sport FC 26 - PS5",
+    price: 278.9,
     installments: "10x de R$300,00",
     discount: "R$2.800,00 à vista",
     image:
-      "https://universonintendo.com/wp-content/uploads/2025/04/Nintendo-Switch-2-Mario-Kart-World-Boxart-BRA.png",
+      "https://images7.kabum.com.br/produtos/fotos/916677/jogo-ea-sports-fc-26-ps5-ea000011ps5_1756844581_gg.jpg",
   },
   {
     id: 6,
-    title: "Nintendo Switch 2",
-    price: 3000,
+    title: "Xbox Series S - Pack com controle adicional",
+    price: 2781,
     installments: "10x de R$300,00",
     discount: "R$2.800,00 à vista",
     image:
-      "https://universonintendo.com/wp-content/uploads/2025/04/Nintendo-Switch-2-Mario-Kart-World-Boxart-BRA.png",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_622820-MLA96118095915_102025-F.webp",
   },
   {
     id: 7,
-    title: "Nintendo Switch 2",
-    price: 3000,
+    title: "Gift Card Nintendo",
+    price: 100,
     installments: "10x de R$300,00",
     discount: "R$2.800,00 à vista",
     image:
-      "https://universonintendo.com/wp-content/uploads/2025/04/Nintendo-Switch-2-Mario-Kart-World-Boxart-BRA.png",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_933986-MLA85349303924_062025-F.webp",
   },
   {
     id: 8,
-    title: "Nintendo Switch 2",
+    title: "Joy Con Nintendo Switch  Roxo e Laranja",
     price: 3000,
     installments: "10x de R$300,00",
     discount: "R$2.800,00 à vista",
-    image:
-      "https://universonintendo.com/wp-content/uploads/2025/04/Nintendo-Switch-2-Mario-Kart-World-Boxart-BRA.png",
+    image: "https://m.media-amazon.com/images/I/6197HqTcMiL._AC_SL1500_.jpg",
   },
 ];
 
