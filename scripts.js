@@ -76,7 +76,7 @@ let products = [
 let classics = [
   {
     id: 1,
-    title: "Master System",
+    title: "Master System - usado",
     price: 800,
     installments: "10x de R$80,00",
     discount: "R$700,00 à vista",
@@ -84,31 +84,30 @@ let classics = [
       "https://beanstalk.io/wp-content/uploads/2023/01/sega-master-system-emulators.jpg",
   },
   {
-    id: 1,
-    title: "Master System",
+    id: 2,
+    title: "Nintendo Gameboy - usado",
     price: 800,
     installments: "10x de R$80,00",
     discount: "R$700,00 à vista",
     image:
-      "https://beanstalk.io/wp-content/uploads/2023/01/sega-master-system-emulators.jpg",
+      "https://th.bing.com/th/id/R.874f1b6a8509269cfbeaf41500bea597?rik=AQSVmfiTN0nmSQ&pid=ImgRaw&r=0",
   },
   {
-    id: 1,
-    title: "Master System",
+    id: 3,
+    title: "Gameboy Advance SP",
     price: 800,
     installments: "10x de R$80,00",
     discount: "R$700,00 à vista",
     image:
-      "https://beanstalk.io/wp-content/uploads/2023/01/sega-master-system-emulators.jpg",
+      "https://cdn.awsli.com.br/2500x2500/17/17021/produto/39048667/gba-sp-aquln0etq9.jpg",
   },
   {
-    id: 1,
-    title: "Master System",
+    id: 4,
+    title: "Mega Drive",
     price: 800,
     installments: "10x de R$80,00",
     discount: "R$700,00 à vista",
-    image:
-      "https://beanstalk.io/wp-content/uploads/2023/01/sega-master-system-emulators.jpg",
+    image: "https://m.media-amazon.com/images/I/71jz2UF7LsS._AC_SL1000_.jpg",
   },
 ];
 
