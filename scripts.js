@@ -118,13 +118,17 @@ function formatPrice(price) {
 // cria os cards
 
 function creatCardProduct(product) {
-  return `<div class="product-card">
+  return `
+  <a class="#" href="./produto.html">
+  <div class="product-card">
             <img src="${product.image}" alt="${product.title}" />
             <h3 class="product-title">${product.title}</h3>
             <div class="product-price">${formatPrice(product.price)}</div>
             <div class="product-installment">${product.installments}</div>
             <div class="product-discount">${product.discount}</div>
-          </div>`;
+          </div>
+          </a>
+          `;
 }
 
 //renderiza os cards
