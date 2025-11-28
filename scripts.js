@@ -119,7 +119,7 @@ function formatPrice(price) {
 
 function creatCardProduct(product) {
   return `
-  <a class="#" href="./produto.html">
+  <a class="product-link" href="./produto.html">
   <div class="product-card">
             <img src="${product.image}" alt="${product.title}" />
             <h3 class="product-title">${product.title}</h3>
