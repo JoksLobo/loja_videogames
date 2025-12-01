@@ -137,6 +137,7 @@ function renderLancamentos(products) {
 
   grid.innerHTML = products.map(creatCardProduct).join("");
 }
+
 function renderClassics(classics) {
   const grid = document.getElementById("classicsGrid");
 
