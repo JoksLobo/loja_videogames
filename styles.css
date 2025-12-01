@@ -205,6 +205,34 @@ body {
             }
           }
         }
+
+        & .share {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .social {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+          }
+
+          & a {
+            text-decoration: none;
+            color: rgb(13, 13, 121);
+            transition: all ease 0.2s;
+
+            &:hover {
+              color: rgb(64, 64, 184);
+              transform: scale(1.1);
+            }
+          }
+
+          & i {
+            font-size: 3rem;
+          }
+        }
       }
     }
   }
