@@ -11,6 +11,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -100,31 +106,39 @@
           </div>
           <div class="product-infos">
             <div class="product-texts">
-              <h2>Console Nintendo Switch 2</h2>
+              <h1>Console Nintendo Switch 2</h1>
             </div>
             <div class="product-prices">
               <p class="full-price">R$3.000,00</p>
               <p class="price-installments">
-                <i class="fa-regular fa-credit-card"></i>10x de R$300,00
+                <i class="fa-regular fa-credit-card"></i> <span>10x</span> de
+                <span>R$300,00</span>
               </p>
               <p class="price-discount">
-                <i class="fa-solid fa-barcode"></i>R$2.800,00 no PIX
+                <i class="fa-solid fa-barcode"> </i>
+                <span>R$2.800,00 no PIX</span>
               </p>
             </div>
             <div class="product-payment">
               <p>
-                <i class="fa-brands fa-pix"></i> <span>R$2.800,00</span> via PIX
-                com <span>20% de desconto</span>
+                <i class="fa-brands fa-pix pix"></i>
+                <span class="span2">R$2.800,00</span> via PIX com
+                <span class="span2">20% de desconto</span>
               </p>
-              <p><span>Economize até </span><span>R$200,00</span></p>
+              <p>
+                <span class="span3">Economize até </span
+                ><span class="span2">R$200,00</span>
+              </p>
 
               <div class="buying-box">
-                <input type="number" />
-                <button>Comprar</button>
+                <input class="quantity" type="number" placeholder="1" />
+                <button class="buying-button">Comprar</button>
               </div>
-              <p class="available">Estoque: <span>Disponível</span></p>
-              <button>
-                <i class="fa-brands fa-whatsapp"></i> Tirar Dúvidas via whatsapp
+              <p class="available">
+                Estoque: <span class="span2">Disponível</span>
+              </p>
+              <button class="whatsapp-button">
+                <i class="fa-brands fa-whatsapp"></i> Tirar Dúvidas via Whatsapp
               </button>
             </div>
           </div>
