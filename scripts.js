@@ -148,3 +148,10 @@ document.addEventListener("DOMContentLoaded", () => {
   renderLancamentos(products);
   renderClassics(classics);
 });
+
+const installmentBtn = document.querySelector(".installment-btn");
+const installmentsList = document.querySelector(".installments-list");
+
+installmentBtn.addEventListener("click", () => {
+  installmentsList.classList.toggle("active");
+});
