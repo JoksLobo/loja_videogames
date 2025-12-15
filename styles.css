@@ -446,3 +446,22 @@ body {
     }
   }
 }
+
+@media (max-width: 780px) {
+  .header {
+    .header-container {
+      gap: 1.5rem;
+
+      & .search {
+        min-width: 16rem;
+      }
+    }
+  }
+  .main {
+    & .container {
+      .products-grid {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+  }
+}
