@@ -18,7 +18,7 @@ body {
 
 .header {
   width: 100vw;
-  padding: 2rem 0;
+  padding: 2rem 10rem;
   margin: 0 auto;
   background-color: rgb(25, 25, 65);
   color: #f2f2f2;
@@ -99,11 +99,14 @@ body {
 }
 
 .hero {
-  height: 54.6rem;
-  background-image: url("https://cdn.awsli.com.br/1920x1920/2423/2423046/banner/garanta-o-seu--8s85dpkwwu.png");
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: fill;
   margin-bottom: 2rem;
+
+  & img {
+    width: 100%;
+  }
 }
 
 .main {
@@ -118,7 +121,6 @@ body {
     gap: 3rem;
     width: 80vw;
     margin: 0 auto;
-    overflow: hidden;
 
     & .products-grid {
       display: grid;
@@ -393,6 +395,52 @@ body {
               }
             }
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .header {
+    padding: 2rem 5rem;
+
+    .header-container {
+      gap: 5rem;
+    }
+  }
+
+  .main {
+    & .container {
+      .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+
+        & .product-card {
+          min-width: 20rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .header {
+    .header-container {
+      gap: 3rem;
+
+      & .search {
+        min-width: 20rem;
+        height: 4.5rem;
+      }
+    }
+  }
+  .main {
+    & .container {
+      .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+        & .product-card {
+          min-width: 20rem;
         }
       }
     }
