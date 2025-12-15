@@ -407,10 +407,6 @@ body {
 
     .header-container {
       gap: 5rem;
-
-      & .logo {
-        align-items: start;
-      }
     }
   }
 
@@ -456,7 +452,10 @@ body {
     .header-container {
       gap: 1.5rem;
 
-      & .search {
+      & .search,
+      & .carrinho,
+      & .atendimento,
+      & .login {
         display: none;
       }
     }
