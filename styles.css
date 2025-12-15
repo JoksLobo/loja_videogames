@@ -407,6 +407,10 @@ body {
 
     .header-container {
       gap: 5rem;
+
+      & .logo {
+        align-items: start;
+      }
     }
   }
 
@@ -453,7 +457,7 @@ body {
       gap: 1.5rem;
 
       & .search {
-        min-width: 16rem;
+        display: none;
       }
     }
   }
